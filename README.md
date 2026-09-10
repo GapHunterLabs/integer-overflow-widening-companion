@@ -5,6 +5,14 @@ directly to a `long`-typed destination (a local variable's initializer,
 an assignment, a method parameter, or a method return) with no
 widening cast on either operand.
 
+## Screenshots
+
+![Screenshot 1](docs/screenshots/Screenshot_1.png)
+
+![Screenshot 2](docs/screenshots/Screenshot_2.png)
+
+![Screenshot 3](docs/screenshots/Screenshot_3.png)
+
 ## Why it exists
 
 CWE-190 (Integer Overflow or Wraparound) -- the operation happens in
