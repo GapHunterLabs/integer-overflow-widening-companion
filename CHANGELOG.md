@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+## [0.1.1]
+
+### Fixed
+
+- Review/star CTA now links to this plugin's own Marketplace
+  reviews page instead of the vendor's generic plugin list.
+
 ## [0.1.0]
 
 ### Added
@@ -14,5 +21,6 @@
 - Checks every real destination shape: variable initializer,
   assignment, method argument, and method return.
 
-[Unreleased]: https://github.com/GapHunterLabs/integer-overflow-widening-companion/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/GapHunterLabs/integer-overflow-widening-companion/compare/0.1.1...HEAD
+[0.1.1]: https://github.com/GapHunterLabs/integer-overflow-widening-companion/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/GapHunterLabs/integer-overflow-widening-companion/commits/0.1.0
