@@ -1,0 +1,11 @@
+<html>
+<body>
+Reports an <code>int * int</code> or <code>int + int</code> expression assigned or passed directly to a
+<code>long</code> destination (a variable initializer, an assignment, a method argument or a return value) with no
+widening cast on either operand.
+<!-- tooltip end -->
+<p>The operation runs in 32-bit <code>int</code> arithmetic first and can overflow, often to a negative number, before
+the result is widened to <code>long</code> (CWE-190). Casting one operand to <code>long</code> makes the whole operation
+64-bit.</p>
+</body>
+</html>
